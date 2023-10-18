@@ -1,5 +1,5 @@
 {% set name = "venn-abers" %}
-{% set version = "1.3" %}
+{% set version = "1.4.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/venn-abers-{{ version }}.tar.gz
-  sha256: 64e5e55defbac35b5398d0ccf0a00cfeaca7009e7bbd0bb76ffe9f96f1a1ae21
+  sha256: f091c994948dace6e800dc4e072c3e2b74f3e015c644702fbdabc597bebc3788
 
 build:
   noarch: python
